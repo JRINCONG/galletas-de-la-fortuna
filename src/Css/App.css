@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700; 1.900&display=intercambio');
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto sans-serif;
+
+}
+
+.Contenedor-Principal{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    color:#fff;
+    min-height: 100vh;
+    width: 100vw;  
+    background-image: url('/fortuna-2/fondo3.png');
+    background-repeat: no-repeat;
+    background-size: cover;   
+    background-position: center;  
+     
+    align-content: space-between;
+
+}
+
+
+.Contenedor-Principal h1{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3rem;
+    display: flex;
+    text-align: center;
+    text-shadow: -3px -3px #FCAB3A,
+                   3px 3px #FCAB3A,
+                   -3px 3px #FCAB3A,
+                   3px -3px #FCAB3A;
+  font-weight: 700;
+  margin-top: 40px;
+    
+}
+.caja-btn{
+    display: flex;
+    justify-content: end;
+}
